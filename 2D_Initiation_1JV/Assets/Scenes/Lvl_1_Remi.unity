@@ -1666,6 +1666,7 @@ GameObject:
   - component: {fileID: 778708031}
   - component: {fileID: 778708030}
   - component: {fileID: 778708032}
+  - component: {fileID: 778708033}
   m_Layer: 0
   m_Name: Kill Zone
   m_TagString: Untagged
@@ -1728,6 +1729,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startPoint: {fileID: 0}
   player: {fileID: 0}
+--- !u!114 &778708033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778708029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ec007787dbc25945af1f3315fc9479f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &797712071 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 514953379447151170, guid: 69db78bd25d28314ca7d4473ae7b1187, type: 3}
@@ -3673,6 +3686,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1952067266}
     m_Modifications:
+    - target: {fileID: 770993563162674145, guid: 02929ecefdff4314f9a66b2d803dd96c, type: 3}
+      propertyPath: levelname
+      value: Lvl_2_Mathieu
+      objectReference: {fileID: 0}
     - target: {fileID: 770993563162674150, guid: 02929ecefdff4314f9a66b2d803dd96c, type: 3}
       propertyPath: m_Size.x
       value: 1.75
@@ -3741,8 +3758,7 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 770993563162674145, guid: 02929ecefdff4314f9a66b2d803dd96c, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02929ecefdff4314f9a66b2d803dd96c, type: 3}
 --- !u!1001 &1467412743254018194
 PrefabInstance:

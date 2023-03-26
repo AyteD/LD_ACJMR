@@ -1794,8 +1794,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1656447941}
-  - component: {fileID: 1656447942}
   - component: {fileID: 1656447943}
+  - component: {fileID: 1656447944}
   m_Layer: 6
   m_Name: KillZone
   m_TagString: Untagged
@@ -1818,18 +1818,6 @@ Transform:
   m_Father: {fileID: 1546594267}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1656447942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1656447940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5105717bccf85304ead9c24dc4be2085, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1656447943
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1856,6 +1844,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 300, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1656447944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656447940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ec007787dbc25945af1f3315fc9479f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1679903890
 GameObject:
   m_ObjectHideFlags: 0
@@ -2933,7 +2933,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 770993563162674145, guid: 02929ecefdff4314f9a66b2d803dd96c, type: 3}
       propertyPath: levelname
-      value: Lvl_1
+      value: Lvl_3_Carl
+      objectReference: {fileID: 0}
+    - target: {fileID: 770993563162674145, guid: 02929ecefdff4314f9a66b2d803dd96c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 770993563162674150, guid: 02929ecefdff4314f9a66b2d803dd96c, type: 3}
       propertyPath: m_Size.y
