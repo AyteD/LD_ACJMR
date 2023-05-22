@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -14,13 +15,13 @@ public class EndingLevel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-
+       
     }
 
     private void OnTriggerEnter2D(Collider2D pCollision)
@@ -34,7 +35,7 @@ public class EndingLevel : MonoBehaviour
 
         if (playersintrigger >= 2)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene(levelname);
 
         }
 
